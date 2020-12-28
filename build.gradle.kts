@@ -3,7 +3,7 @@ plugins {
     kotlin("jvm") version "1.3.72"
 }
 
-group = "com.gitgub.itasyurt"
+group = "com.github.itasyurt"
 version = "1.0-SNAPSHOT"
 
 repositories {

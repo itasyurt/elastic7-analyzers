@@ -91,8 +91,7 @@ class ElasticAnalyzer {
 
 
         }
-        val charFilterFactories = arrayOf<CharFilterFactory>(htmlStripFilterFactory)
-        return charFilterFactories
+        return arrayOf(htmlStripFilterFactory)
     }
 
     private fun createTokenizerFactory(): TokenizerFactory {
